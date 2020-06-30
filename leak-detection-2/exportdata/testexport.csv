@@ -1,0 +1,3 @@
+assetype_key,assetype_id,denotation,value
+1,NOT_EMPTY,"the result should be not empty",
+2,EMPTY,"the result should be empty",NULL

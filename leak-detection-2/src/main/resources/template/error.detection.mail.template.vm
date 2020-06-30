@@ -1,0 +1,126 @@
+<head>
+    <!--Title-->
+    <title>${TITLE}</title>
+    <!--Meta Tag-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content=" " />
+    <meta name="keywords" content=" " />
+    <meta name="author" content=" " />
+    <meta name="copyright" content=" " />
+    <meta name="company" content=" " />
+    <style type="text/css">
+        p{
+            margin:1em 0;
+            padding:0;
+            margin-top: 0;
+        }
+        .statistics-content {
+          font-family: "Arial, Helvetica, sans-serif";
+          border-collapse: collapse;
+          width: 100%;
+          font-size: 15px;
+        }
+
+        .statistics-content td {
+          border: 1px solid black;
+          padding: 8px;
+        }
+
+        .statistics-content th {
+          border: 1px solid black;
+          padding-top: 12px;
+          padding-bottom: 12px;
+          padding-left: 5px;
+          text-align: left;
+          background-color: #C4D7EF;
+          color: black;
+        }
+
+        .text {color: black;}
+        .text-red {color: red;}
+        .text-green {color: green;}
+        .align-right {
+            text-align: right;
+        }
+
+        .category {
+            text-align: center;
+            font-weight:bolder;
+        }
+
+        .table-description {
+            font-size:16px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .bg-light-blue {
+          background-color: #C4D7EF;
+        }
+
+        .bg-red {
+          background-color: #FC0102;
+        }
+
+        .bg-white {
+          background-color: #FFFFFF;
+        }
+
+        .bg-orange {
+          background-color: #FFC100;
+        }
+
+        .statistics-table-layout td {
+            padding: 5px;
+        }
+    </style>
+    <!--[if (mso)|(mso 16)]>
+    <style type="text/css">
+    a {text-decoration: none;}
+
+    </style>
+    <![endif]-->
+</head>
+<body style="margin:0px; padding:0px; background-color:#fff; font-family:Arial, Helvetica, sans-serif; color:#333; line-height:17px">
+	<div>
+		<div>
+			Dear all,
+			<br><br>
+			Xảy ra lỗi thu thập dữ liệu sử dụng trên <strong>ErrorDetection</strong>
+			<br><br>
+			Vui lòng giúp kiểm tra sự cố.<br>
+			<a style="text-decoration: none;" href="$ctx.get("page_contact")" class="request-id">$ctx.get("page_contact")</a><br>
+			<br>
+			Đây là email tự động. Bạn vui lòng không trả lời email này.<br>
+			Cảm ơn bạn đã sử dụng dịch vụ!<br>
+		</div><br>
+		<div style = "padding: 15px; background-color:rgb(237,237,237);">
+			Dear all,
+			<br><br>
+			Some errors occur while collecting usage data on <strong>ErrorDetection</strong>
+			<br><br>
+			Please help to check the problem.<br>
+			<a style="text-decoration: none;" href="$ctx.get("page_contact")" class="request-id">$ctx.get("page_contact")</a><br>
+			<br>
+			This is an auto-generated email. Please do not reply to this email.<br>
+			Thank you for using our services!<br>
+		</div>
+		<br>
+		<br>
+	    <tr>
+	        <td>
+	            $ctx.get("statistic_content")
+	        </td>
+	    </tr>
+	    <br />
+		<table>
+			<tr><td colspan="2" style=" color: #2e74b5;"><b>$ctx.get("mail_signature")</b></td></tr>
+			<tr><td style=" color: #2e74b5;"><b>Hotline</b></td><td>$ctx.get("hotline_support")</td></tr>
+			<tr><td style=" color: #2e74b5;"><b>Skype</b></td><td>$ctx.get("skype_support")</td></tr>
+			<tr><td style=" color: #2e74b5;"><b>Mail</b></td><td><a style="text-decoration: none;" href="mailto:$ctx.get("support_emails")" class="request-id">$ctx.get("support_emails")</a></td></tr>
+			<tr><td style=" color: #2e74b5;"><b>Page</b></td><td><a style="text-decoration: none;" href="$ctx.get("page_support")" class="request-id">$ctx.get("page_support")</a></td></tr>
+		</table>
+	</div>
+</body>
+
+</html>
